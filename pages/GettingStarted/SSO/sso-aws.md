@@ -79,6 +79,7 @@ Note: We suggest that you keep both the AWS and nOps platform open in the same b
 
 <br>
 
+
 **Step5: Create an Application in the IAM Identity Center with filled configuration details and configure Attribute mappings.**
 
 - Click on the **Actions** button and then in **Edit attribute mappings** in an Application to configure **Attribute Mappings** for the nOps Application.
