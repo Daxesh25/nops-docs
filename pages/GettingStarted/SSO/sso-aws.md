@@ -65,9 +65,9 @@ Note: We suggest that you keep both the AWS and nOps platform open in the same b
 ![](https://lh7-us.googleusercontent.com/73lg69U2gUGKpd-afGO8vZN_GWZX6F9Cwr8_-eJCzcILWc-R4mHpSV27F4Zm23mnFJ6lJwN8kfafG7fFRampimPZIVjNApjoRV7OPMgm4lXsVRXKJi8sOYLSy5eNOIsgc1cYS86pwyZ5uXMkfNxO8s4)
 
 <br>
-<b>
-Step4: Download the IAM Identity Certificate
-</b>
+
+**Step4: Download the IAM Identity Certificate**
+
 
 - Switch to the AWS platform and download the IAM Identity Certificate
 
