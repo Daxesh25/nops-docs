@@ -36,7 +36,7 @@ It’s now quick and easy to integrate SSO from your preferred SAML 2.0 provider
 
 Note: We suggest that you keep both the AWS and nOps platform open in the same browser to switch between during the steps. 
 
-1. **Create an Application with SAML 2.0 configuration.**
+**Create an Application with SAML 2.0 configuration.**
 
 - Within your AWS Platform, Navigate to **IAM Identity Center → Applications → Add Application**
 
@@ -48,17 +48,19 @@ Note: We suggest that you keep both the AWS and nOps platform open in the same b
 <br>
 ![](https://lh7-us.googleusercontent.com/_Ej88Q-JIC0kMqVsoVWw_23ISVqrx4Bi-nJdchpkGk1DAiVn2KrP3oKspgVjPK5U0rTLr8ZIrvQvDTtv6FYShp0N1X9IDWk-42L6plr5BUmH28aUz8VvlNtSQZ5EGInpsFRvIUxZBXXe1oXjGcHXnFY)
 <br>
-2. **On the nOps platform, and navigate to Organizational Settings → SSO to Enable SSO.** 
+
+**On the nOps platform, and navigate to Organizational Settings → SSO to Enable SSO.** 
 <br>
 ![](https://lh7-us.googleusercontent.com/wp4Od6Ghlklv2C7edo1WyxfU92n-HI2iBRFESJ2TVix5lOiHB-XGjaIABSxqAptAeM2NQR0YByDtrbS-MPGYc6VodSYdqRpR1b_ROCpGRH9n5jSkAbtiwJ4VjNQC1hTXec2HcVbkOnbzBIv-mo7XUTo)
 <br>
-3.  **Perform the following steps on the AWS platform where Application creation is in progress.**
 
-- Copy the **IAM Identity Center SAML Issuer URL** from AWS. In the nOps platform browser tab, paste the URL into the fields: **Issuer URL (entityId)** & **SAML 2.0 Endpoint (HTTP) (singleSignOnService: URL)**
+**Perform the following steps on the AWS platform where Application creation is in progress.**
 
-* Copy the **Assertion Consumer Service URL** from **nOps** **SSO Integration Details** and paste it into  **Application ACS URL**.
+-Copy the **IAM Identity Center SAML Issuer URL** from AWS. In the nOps platform browser tab, paste the URL into the fields: **Issuer URL (entityId)** & **SAML 2.0 Endpoint (HTTP) (singleSignOnService: URL)**
 
-- Copy the **Entity ID** from **nOps SSO integration Details** and paste it into the  **Application MetaData** field **Application SAML audience**
+-Copy the **Assertion Consumer Service URL** from **nOps** **SSO Integration Details** and paste it into  **Application ACS URL**.
+
+-Copy the **Entity ID** from **nOps SSO integration Details** and paste it into the  **Application MetaData** field **Application SAML audience**
 <br>
 ![](https://lh7-us.googleusercontent.com/73lg69U2gUGKpd-afGO8vZN_GWZX6F9Cwr8_-eJCzcILWc-R4mHpSV27F4Zm23mnFJ6lJwN8kfafG7fFRampimPZIVjNApjoRV7OPMgm4lXsVRXKJi8sOYLSy5eNOIsgc1cYS86pwyZ5uXMkfNxO8s4)
 
