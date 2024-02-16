@@ -36,7 +36,7 @@ It’s now quick and easy to integrate SSO from your preferred SAML 2.0 provider
 
 Note: We suggest that you keep both the AWS and nOps platform open in the same browser to switch between during the steps. 
 
-**Create an Application with SAML 2.0 configuration.**
+**Step1: Create an Application with SAML 2.0 configuration.**
 
 - Within your AWS Platform, Navigate to **IAM Identity Center → Applications → Add Application**
 
@@ -49,12 +49,12 @@ Note: We suggest that you keep both the AWS and nOps platform open in the same b
 ![](https://lh7-us.googleusercontent.com/_Ej88Q-JIC0kMqVsoVWw_23ISVqrx4Bi-nJdchpkGk1DAiVn2KrP3oKspgVjPK5U0rTLr8ZIrvQvDTtv6FYShp0N1X9IDWk-42L6plr5BUmH28aUz8VvlNtSQZ5EGInpsFRvIUxZBXXe1oXjGcHXnFY)
 <br>
 
-**On the nOps platform, and navigate to Organizational Settings → SSO to Enable SSO.** 
+**Step2: On the nOps platform, and navigate to Organizational Settings → SSO to Enable SSO.** 
 <br>
 ![](https://lh7-us.googleusercontent.com/wp4Od6Ghlklv2C7edo1WyxfU92n-HI2iBRFESJ2TVix5lOiHB-XGjaIABSxqAptAeM2NQR0YByDtrbS-MPGYc6VodSYdqRpR1b_ROCpGRH9n5jSkAbtiwJ4VjNQC1hTXec2HcVbkOnbzBIv-mo7XUTo)
 <br>
 
-**Perform the following steps on the AWS platform where Application creation is in progress.**
+**Step3: Perform the following steps on the AWS platform where Application creation is in progress.**
 
 -Copy the **IAM Identity Center SAML Issuer URL** from AWS. In the nOps platform browser tab, paste the URL into the fields: **Issuer URL (entityId)** & **SAML 2.0 Endpoint (HTTP) (singleSignOnService: URL)**
 
@@ -66,7 +66,7 @@ Note: We suggest that you keep both the AWS and nOps platform open in the same b
 
 <br>
 <b>
-4. Download the IAM Identity Certificate
+Step4: Download the IAM Identity Certificate
 </b>
 
 - Switch to the AWS platform and download the IAM Identity Certificate
@@ -79,7 +79,7 @@ Note: We suggest that you keep both the AWS and nOps platform open in the same b
 
 <br>
 
-5\. **Create an Application in the IAM Identity Center with filled configuration details and configure Attribute mappings.**
+**Step5: Create an Application in the IAM Identity Center with filled configuration details and configure Attribute mappings.**
 
 - Click on the **Actions** button and then in **Edit attribute mappings** in an Application to configure **Attribute Mappings** for the nOps Application.
 
@@ -99,7 +99,7 @@ Note: We suggest that you keep both the AWS and nOps platform open in the same b
 
 <br>
 
-6.  **Provide default roles in the nOps platform.**
+**Step6: Provide default roles in the nOps platform.**
 
 - Navigate to **Organization Settings** **→** **SSO** and select **Default roles** for your User/Groups.
 
@@ -109,7 +109,7 @@ Note: We suggest that you keep both the AWS and nOps platform open in the same b
 
 <br>
 
-7\. **Switch to AWS IAM Identity Center to Create Groups and Users, and assign them in the nOps Application.** 
+**Step7: Switch to AWS IAM Identity Center to Create Groups and Users, and assign them in the nOps Application.** 
 
 - Navigate to **Groups** in the left panel of the **IAM Identity Center**
 
@@ -125,7 +125,7 @@ Note: We suggest that you keep both the AWS and nOps platform open in the same b
 
 **Note**: Ensure user access and user status are enabled.
 
-8\. **Accept the Invitation in your \[added users in nOps application] email received from AWS with the subject: Invitation to join AWS IAM Identity Center (successor to AWS Single Sign-On).**
+**Step8: Accept the Invitation in your \[added users in nOps application] email received from AWS with the subject: Invitation to join AWS IAM Identity Center (successor to AWS Single Sign-On).**
 
 - Accept the invitation received on your email as shown below.
 
@@ -141,16 +141,16 @@ Note: We suggest that you keep both the AWS and nOps platform open in the same b
 <br>
 - Click on the nOps Application to be redirected to the nOps platform with no Sign-in required. 
 
-<br> <br>
+<br>
 
 
 ![](https://lh7-us.googleusercontent.com/iVs_UcQNc_OCh1zy2EzotOUSxB3ZpcMUl-86YMC9L8cgLq5V1uIRakKRFCdR-sh6BmMh5up3yyN11SLj5sAvpfJiwJIJ0TBKlS7k9Wb-5CEOWH5pfrT_k4jiYxNKJI5Cl2iVdIaFRMECFgAPmY6w5yk)
 
-**9.  You will receive an email confirming that you wish to allow SSO access.** 
+**Step9: You will receive an email confirming that you wish to allow SSO access.** 
 
 ![](https://lh7-us.googleusercontent.com/SXmg4bNvn-eFRGPRvxr7COdWsI0PyYZnNF2hif5lbueM-nSw-Jj3AlSXe8F3kCLVwmSE22JWBzfWAxIutcJC-KD66X1uxkaZkBMvaQC_QqVWn0AvfPLCi4t0CYwLMXoUVrMldyVS8VtBRXqGsGXczcg)
 
-**10. You will be able to use the AWS access portal URL given in the email to directly access the nOps Application.** 
+**Step10: You will be able to use the AWS access portal URL given in the email to directly access the nOps Application.** 
 
 
 
